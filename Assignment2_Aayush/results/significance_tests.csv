@@ -1,0 +1,7 @@
+Model A,Model B,McNemar Statistic,p-value,Significant (p<0.05)
+svm,sgd,0.0,1.0,False
+svm,random_forest,0.5,0.4795,False
+svm,xgboost,0.0,1.0,False
+sgd,random_forest,0.5,0.4795,False
+sgd,xgboost,0.0,1.0,False
+random_forest,xgboost,0.0,1.0,False
