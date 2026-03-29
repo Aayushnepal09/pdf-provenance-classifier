@@ -1,9 +1,7 @@
 # ForensicsDetective: Hero or Zero?
 ## Augmentation and Robustness Testing for PDF Provenance Detection
 
-**Aayush Nepal**
-**EAS 510 — Basics of AI**
-**March 2026**
+**Not Final still working on it** 
 
 ---
 
