@@ -1,5 +1,3 @@
-# ForensicsDetective: Hero or Zero?
-## Augmentation and Robustness Testing for PDF Provenance Detection
 
 **Not Final still working on it** 
 
@@ -33,7 +31,7 @@ That's basically what this assignment tests. I apply five kinds of distortions t
 
 ### 3.1 Dataset
 
-The dataset was created by the professor and comes from 398 Wikipedia articles that were converted to PDFs through three different tools:
+The dataset was created by the professor repo:
 
 | Class | How it was made | Count |
 |-------|----------------|-------|
