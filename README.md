@@ -1,14 +1,12 @@
-# Assignment 2: ForensicsDetective — Hero or Zero?
+# PDF Provenance Classifier — Robustness Under Image Distortion
 
-**Aayush Nepal** | EAS 510 - Basics of AI | March 2026
+Different software leaves distinct fingerprints in the binary structure of a PDF. This project
+trains classifiers to detect **which tool produced a PDF** (Microsoft Word, Google Docs, or
+Python/ReportLab) from its rendered binary image — and, more interestingly, measures **how robust
+those classifiers stay when the images are degraded**.
 
----
-
-## What this project does
-
-This project tests how robust PDF provenance classifiers are when images get distorted. The idea is that different software (Word, Google Docs, Python) leaves distinct patterns in PDF binary data, and you can train classifiers to detect which tool made a given PDF.
-
-I take the provided dataset of 894 binary images, augment them with 5 types of distortions, train 4 classifiers, and see how badly performance degrades under each distortion type.
+The pipeline takes 894 binary images, augments them with 5 types of distortion, trains 4 classifiers,
+and quantifies how much performance degrades under each distortion type.
 
 ## Dataset
 
@@ -20,7 +18,7 @@ I take the provided dataset of 894 binary images, augment them with 5 types of d
 ## Repo structure
 
 ```
-Assignment2_Aayush/
+pdf-provenance-classifier/
 ├── README.md
 ├── SETUP.md
 ├── requirements.txt
